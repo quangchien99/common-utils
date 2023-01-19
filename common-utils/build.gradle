@@ -35,9 +35,10 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                groupId = 'com.qcp'
+                from components.release
+                groupId = 'com.github.quangchien99'
                 artifactId = 'common-utils'
-                version = "1.0.2"
+                version = '1.0.2'
             }
         }
     }
