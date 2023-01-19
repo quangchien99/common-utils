@@ -6,11 +6,11 @@ plugins {
 
 android {
     namespace 'com.qcp.common_utils'
-    compileSdk 33
+    compileSdk 32
 
     defaultConfig {
         minSdk 24
-        targetSdk 33
+        targetSdk 32
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
@@ -38,7 +38,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.quangchien99'
                 artifactId = 'common-utils'
-                version = '1.0.3'
+                version = '1.0.5'
             }
         }
     }
@@ -46,7 +46,7 @@ afterEvaluate {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.7.0'
+    implementation 'androidx.core:core-ktx:1.9.0'
     implementation 'androidx.appcompat:appcompat:1.6.0'
     implementation 'com.google.android.material:material:1.7.0'
     testImplementation 'junit:junit:4.13.2'
