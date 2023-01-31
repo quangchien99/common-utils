@@ -21,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ellipsize.EllipsizeTextViewActivity" />
+        <activity android:name=".avatar_view.AvatarViewActivity" />
     </application>
 
 </manifest>

@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.commonutils.avatar_view.AvatarViewActivity
 import com.example.commonutils.databinding.ActivityMainBinding
 import com.example.commonutils.ellipsize.EllipsizeTextViewActivity
 
@@ -17,6 +18,12 @@ class MainActivity : AppCompatActivity() {
         binding.btnEllipsize.setOnClickListener {
             startActivity(
                 Intent(this, EllipsizeTextViewActivity::class.java)
+            )
+        }
+
+        binding.btnAvatarView.setOnClickListener {
+            startActivity(
+                Intent(this, AvatarViewActivity::class.java)
             )
         }
     }

@@ -15,4 +15,12 @@
         android:layout_marginTop="8dp"
         android:background="#FFEAE089"
         android:text="Ellipsize" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnAvatarView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#EDA29D"
+        android:text="Avatar View" />
 </LinearLayout>
