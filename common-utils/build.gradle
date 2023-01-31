@@ -16,6 +16,10 @@ android {
         consumerProguardFiles "consumer-rules.pro"
     }
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -38,7 +42,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.quangchien99'
                 artifactId = 'common-utils'
-                version = '1.0.8'
+                version = '1.0.9'
             }
         }
     }
@@ -52,4 +56,5 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.github.bumptech.glide:glide:4.14.2'
 }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    Defining colors-->
+    <color name="ink1">#22313F</color>
+    <color name="ink100">#0d011222</color>
+    <color name="ink100s">#F2F3F4</color>
+    <color name="ink2">#80011222</color>
+    <color name="ink200">#1a011222</color>
+    <color name="ink200s">#E6E7E9</color>
+    <color name="ink3">#4c011222</color>
+    <color name="ink300">#4d011222</color>
+    <color name="ink300s">#B3B8BD</color>
+    <color name="ink4">#19011222</color>
+    <color name="ink400">#80011222</color>
+    <color name="ink400s">#808890</color>
+    <color name="ink5">#0c011222</color>
+    <color name="ink500">#22313F</color>
+
+    <color name="white">#ffffff</color>
+
+    <!--    Defining styles-->
+    <style name="T10M">
+        <item name="android:textSize">10sp</item>
+        <item name="fontFamily">@font/app_medium</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:textColor">@color/ink500</item>
+    </style>
+
+    <!--    Defining dimens-->
+</resources>
