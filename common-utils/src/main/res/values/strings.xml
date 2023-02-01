@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--    For Date time utils-->
+    <string name="common.just_now">Vừa xong</string>
+    <string name="common.x_min">%s phút</string>
+    <string name="common.x_hour">%s giờ</string>
+    <string name="common.x_day">%s ngày</string>
+    <string name="common.x_week">%s tuần</string>
+    <string name="common.x_month">%s tháng</string>
+    <string name="common.x_year">%s năm</string>
+
+</resources>
