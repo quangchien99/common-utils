@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    For Date time utils-->
+    <string name="common.just_now">Just now</string>
+    <string name="common.x_min">%sm</string>
+    <string name="common.x_hour">%sh</string>
+    <string name="common.x_day">%sd</string>
+    <string name="common.x_week">%sw</string>
+    <string name="common.x_month">%smth</string>
+    <string name="common.x_year">%sy</string>
+</resources>
